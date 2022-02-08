@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import './ActorCard.scss';
-import noImage from '../../../No-image.jpg';
+// import noImage from '../../../No-image.jpg';
 
 
 export default function ActorCard({ actor }) {
@@ -9,7 +9,7 @@ export default function ActorCard({ actor }) {
     <div className="actorCard">
       <img
         className="actorCard__picture"
-        src={profile_path? `https:image.tmdb.org/t/p/w300${profile_path}`: noImage }
+        src={`https:image.tmdb.org/t/p/w300${profile_path}`}
         alt={name}
       />
       <div className="actorCard__info">
