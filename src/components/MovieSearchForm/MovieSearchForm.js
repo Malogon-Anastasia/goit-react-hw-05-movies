@@ -22,7 +22,7 @@ export default function MovieSearchForm() {
 
   return (
     <form onSubmit={submitHandler}>
-      <input type="text" name="query" placeholder='Search films' onChange={onInput} value={input} class="input-styles" />
+      <input type="text" name="query" placeholder='Search films' onChange={onInput} value={input} className="input-styles" />
       <button className="btn-sub" type="submit">
         Search
       </button>
