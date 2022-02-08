@@ -20,3 +20,8 @@
   box-shadow: 5px 5px 15px -3px #000000;
   background-color: #ff704d;
 }
+
+.nav__link_active:hover {
+  background-color: white;
+  color: #000000;
+}
