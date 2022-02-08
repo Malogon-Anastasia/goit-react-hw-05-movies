@@ -14,7 +14,7 @@ export default function Cast() {
 
   return (
     cast && (
-      <ul className="cast">
+      <ul className="cast-styles">
         {cast.map(actor => (
           <li key={actor.id} className="cast__item">
             <ActorCard actor={actor} />

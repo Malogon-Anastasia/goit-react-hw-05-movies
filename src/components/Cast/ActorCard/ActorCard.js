@@ -6,7 +6,7 @@ import noImage from '../../../No-image.jpg';
 export default function ActorCard({ actor }) {
   const { character, name, profile_path } = actor;
   return (
-    <div className="actorCard">
+    <div className="actorCard-styles">
       <img
         className="actorCard__picture"
         src={profile_path? `https:image.tmdb.org/t/p/w300${profile_path}`: noImage }
@@ -14,7 +14,7 @@ export default function ActorCard({ actor }) {
       />
       <div className="actorCard__info">
         <span className="actorCard__name">{name}</span>
-        <span className="acrotCard__char">Character: {character}</span>
+        <span className="actorCard__char">Character: {character}</span>
       </div>
     </div>
   );
