@@ -39,7 +39,6 @@ async function getMovieByQuery(query) {
 
 async function getMovieCast(movieId) {
   const respons = await movieDbApi(`/movie/${movieId}/credits`);
-
   return respons.data;
 }
 

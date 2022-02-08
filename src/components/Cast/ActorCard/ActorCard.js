@@ -9,7 +9,7 @@ export default function ActorCard({ actor }) {
     <div className="actorCard-styles">
       <img
         className="actorCard__picture"
-        src={profile_path? `https:image.tmdb.org/t/p/w300${profile_path}`: noImage }
+        src={actor.profile_path? `https:image.tmdb.org/t/p/w300${actor.profile_path}`: noImage }
         alt={name}
       />
       <div className="actorCard__info">
