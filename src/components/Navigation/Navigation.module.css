@@ -1,0 +1,22 @@
+.nav__list {
+  display: inline-flex;
+  list-style: none;
+}
+
+.nav__link {
+  display: block;
+  padding: 5px 15px;
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.nav__link_active {
+  composes: nav__link;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px -3px #000000;
+  box-shadow: 5px 5px 15px -3px #000000;
+  background-color: #ff704d;
+}

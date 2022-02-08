@@ -1,0 +1,31 @@
+.subMenu {
+  margin-bottom: 15px;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #000;
+}
+
+.subMenu__list {
+  display: flex;
+  padding: 0;
+  margin: 10px 0px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.subMenu__link {
+  margin-right: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px -3px #000000;
+  box-shadow: 5px 5px 15px -3px #000000;
+  background-color: #ff704d;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+}
+
+.subMenu__link:hover {
+  background-color: #f4a460;
+}

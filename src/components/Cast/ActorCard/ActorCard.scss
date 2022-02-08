@@ -1,0 +1,29 @@
+.actorCard {
+  padding: 10px;
+  display: flex;
+  border-radius: 5px;
+  background-color: rgba(210, 245, 154, 0.92);
+}
+
+.actorCard:hover {
+  background-color: white;
+  transform: scale(1.03);
+  cursor: zoom-in;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.actorCard__info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: Comic Sans MS;
+}
+
+.actorCard__name {
+  margin-bottom: 10px;
+}
+
+.actorCard__picture {
+  width: 100px;
+}
